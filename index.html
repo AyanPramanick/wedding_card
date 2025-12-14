@@ -142,51 +142,34 @@ body {
 }
 
 
-/* FORCE MOBILE LAYOUT */
-@media (max-width: 768px) {
-
-    body {
-        padding: 0;
-        margin: 0;
-    }
+/* 📱 MOBILE OPTIMIZATION */
+@media (max-width: 600px) {
 
     .card {
-        width: 95%;
-        padding: 30px 15px;
+        padding: 30px 20px;
     }
 
-    /* FIX PHOTO LAYOUT */
     .photos {
-        display: flex;
-        flex-direction: column;   /* STACK PHOTOS */
-        align-items: center;
+        flex-direction: row;   /* keeps photos side-by-side */
         gap: 20px;
     }
 
     .photo {
-        width: 160px;
-        height: 160px;
-    }
-
-    .photo img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
+        width: 130px;
+        height: 130px;
     }
 
     .names {
         font-size: 24px;
-        line-height: 1.3;
-        text-align: center;
     }
 
     .details {
         font-size: 16px;
-        padding: 0 10px;
     }
 
-    h1 {
-        font-size: 30px;
+    .blessing-btn {
+        font-size: 16px;
+        padding: 12px 20px;
     }
 }
 
@@ -240,6 +223,7 @@ body {
 
 </body>
 </html>
+
 
 
 
