@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wedding Invitation</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg,
+        #ff9a9e,
+        #fad0c4,
+        #fbc2eb,
+        #a6c1ee
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* MAIN CARD */
+.card {
+    width: 90%;
+    max-width: 900px;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(18px);
+    border-radius: 25px;
+    padding: 50px 30px;
+    text-align: center;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.25);
+    color: #3b2f2f;
+}
+
+.blessing-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 14px 26px;
+    background: linear-gradient(135deg, #25D366, #128C7E);
+    color: white;
+    font-size: 18px;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    transition: transform 0.3s ease;
+}
+
+.blessing-btn:hover {
+    transform: scale(1.05);
+}
+
+
+/* HEADING */
+.card h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+/* PHOTOS */
+.photos {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 30px 0;
+}
+
+.photo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    padding: 6px;
+    background: linear-gradient(135deg, #ff6a88, #ff99ac, #fbc2eb);
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* NAMES */
+.names {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.heart {
+    color: crimson;
+    margin: 0 10px;
+}
+
+/* DETAILS */
+.details {
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* FOOTER */
+.footer {
+    margin-top: 40px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    .photos {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .card h1 {
+        font-size: 34px;
+    }
+
+    .names {
+        font-size: 26px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <h1>Wedding Invitation</h1>
+    <div class="subtitle">Together with their families</div>
+
+    <div class="photos">
+        <div class="photo">
+            <img src="images\bride.png" alt="Bride Photo">
+        </div>
+
+        <div class="photo">
+            <img src="images\groom.png" alt="Groom Photo">
+        </div>
+    </div>
+
+    <div class="names">
+        Miss Tanu Rawat <span class="heart">❤</span> Mr Leo D'Souza
+    </div>
+
+    <div class="details">
+        Request the pleasure of your presence<br>
+        on the auspicious occasion of their wedding
+        <br><br>
+        <strong>Date:</strong> 25th December 2025<br>
+        <strong>Time:</strong> 7:00 PM onwards<br>
+        <strong>Venue:</strong> Hyatt Regency Salt Lake City, Kolkata
+    </div>
+
+    <div class="footer">
+        With love & blessings ✨
+    </div>
+
+    <div class="footer">
+    <p>Send Your Blessings 💖</p>
+    <a href="sms:+916289715225?body=💐%20Congratulations%20and%20best%20wishes%20to%20the%20lovely%20couple!%20💍💖%20May%20your%20journey%20together%20be%20full%20of%20love%20and%20happiness%20🙏✨">
+     📩 Send Blessings via SMS
+    </a>
+    </div>
+
+
+</div>
+
+</body>
+</html>
