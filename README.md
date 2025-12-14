@@ -11,3 +11,9 @@
        📲 Send Blessings on WhatsApp
     </a>
 </div>
+
+
+
+    <a href="sms:+916289715225?body=💐%20Congratulations%20and%20best%20wishes%20to%20the%20lovely%20couple!%20💍💖%20May%20your%20journey%20together%20be%20full%20of%20love%20and%20happiness%20🙏✨">
+     📩 Send Blessings via SMS
+    </a>
